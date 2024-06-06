@@ -1,0 +1,15 @@
+replicaCount: 1
+image:
+  repository: hieubeo2369/web
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  type: NodePort
+  port: 3000
+  nodePort: 30001
+ingress:
+  enabled: false
+resources: {}
+nodeSelector: {}
+tolerations: []
+affinity: {}
