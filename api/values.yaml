@@ -17,3 +17,6 @@ tolerations: []
 affinity: {}
 serviceAccount:
   create: true
+autoscaling:
+  enabled: true
+
